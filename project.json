@@ -1,0 +1,23 @@
+﻿{
+  "title": "Mondol.DapperPoco",
+  "copyright": "Mondol Studio",
+  "description": "Mondol.DapperPoco",
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Microsoft.AspNetCore.Http.Abstractions": "1.1.0",
+    "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0",
+    "NETStandard.Library": "1.6.0",
+    "System.Reflection.TypeExtensions": "4.3.0"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  },
+  "buildOptions": {
+    "nowarn": [ "1591" ],
+    "xmlDoc": true
+  }
+}
